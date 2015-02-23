@@ -1,83 +1,82 @@
-Row	Variable Name	Domain	Acceleration Source	Units
-1	SUBJECT_ID	   N/A	N/A	N/A
-2	ACTIVITY	N/A	N/A	N/A
-3	tBodyAcc.mean...X	Time	Body	g
-4	tBodyAcc.mean...Y	Time	Body	g
-5	tBodyAcc.mean...Z	Time	Body	g
-6	tBodyAcc.std...X	Time	Body	g
-7	tBodyAcc.std...Y	Time	Body	g
-8	tBodyAcc.std...Z	Time	Body	g
-9	tGravityAcc.mean...X	Time	Gravity	g
-10	tGravityAcc.mean...Y	Time	Gravity	g
-11	tGravityAcc.mean...Z	Time	Gravity	g
-12	tGravityAcc.std...X	Time	Gravity	g
-13	tGravityAcc.std...Y	Time	Gravity	g
-14	tGravityAcc.std...Z	Time	Gravity	g
-15	tBodyAccJerk.mean...X	Time	Body	g
-16	tBodyAccJerk.mean...Y	Time	Body	g
-17	tBodyAccJerk.mean...Z	Time	Body	g
-18	tBodyAccJerk.std...X	Time	Body	g
-19	tBodyAccJerk.std...Y	Time	Body	g
-20	tBodyAccJerk.std...Z	Time	Body	g
-21	tBodyGyro.mean...X	Time	Body	rad/s
-22	tBodyGyro.mean...Y	Time	Body	rad/s
-23	tBodyGyro.mean...Z	Time	Body	rad/s
-24	tBodyGyro.std...X	Time	Body	rad/s
-25	tBodyGyro.std...Y	Time	Body	rad/s
-26	tBodyGyro.std...Z	Time	Body	rad/s
-27	tBodyGyroJerk.mean...X	Time	Body	rad/s
-28	tBodyGyroJerk.mean...Y	Time	Body	rad/s
-29	tBodyGyroJerk.mean...Z	Time	Body	rad/s
-30	tBodyGyroJerk.std...X	Time	Body	rad/s
-31	tBodyGyroJerk.std...Y	Time	Body	rad/s
-32	tBodyGyroJerk.std...Z	Time	Body	rad/s
-33	tBodyAccMag.mean..	Time	Body	g
-34	tBodyAccMag.std..	Time	Body	g
-35	tGravityAccMag.mean..	Time	Gravity	g
-36	tGravityAccMag.std..	Time	Gravity	g
-37	tBodyAccJerkMag.mean..	Time	Body	g
-38	tBodyAccJerkMag.std..	Time	Body	g
-39	tBodyGyroMag.mean..	Time	Body	rad/s
-40	tBodyGyroMag.std..	Time	Body	rad/s
-41	tBodyGyroJerkMag.mean..	Time	Body	rad/s
-42	tBodyGyroJerkMag.std..	Time	Body	rad/s
-43	fBodyAcc.mean...X	Frequency	Body	g
-44	fBodyAcc.mean...Y	Frequency	Body	g
-45	fBodyAcc.mean...Z	Frequency	Body	g
-46	fBodyAcc.std...X	Frequency	Body	g
-47	fBodyAcc.std...Y	Frequency	Body	g
-48	fBodyAcc.std...Z	Frequency	Body	g
-49	fBodyAcc.meanFreq...X	Frequency	Body	g
-50	fBodyAcc.meanFreq...Y	Frequency	Body	g
-51	fBodyAcc.meanFreq...Z	Frequency	Body	g
-52	fBodyAccJerk.mean...X	Frequency	Body	g
-53	fBodyAccJerk.mean...Y	Frequency	Body	g
-54	fBodyAccJerk.mean...Z	Frequency	Body	g
-55	fBodyAccJerk.std...X	Frequency	Body	g
-56	fBodyAccJerk.std...Y	Frequency	Body	g
-57	fBodyAccJerk.std...Z	Frequency	Body	g
-58	fBodyAccJerk.meanFreq...X	Frequency	Body	g
-59	fBodyAccJerk.meanFreq...Y	Frequency	Body	g
-60	fBodyAccJerk.meanFreq...Z	Frequency	Body	g
-61	fBodyGyro.mean...X	Frequency	Body	rad/s
-62	fBodyGyro.mean...Y	Frequency	Body	rad/s
-63	fBodyGyro.mean...Z	Frequency	Body	rad/s
-64	fBodyGyro.std...X	Frequency	Body	rad/s
-65	fBodyGyro.std...Y	Frequency	Body	rad/s
-66	fBodyGyro.std...Z	Frequency	Body	rad/s
-67	fBodyGyro.meanFreq...X	Frequency	Body	rad/s
-68	fBodyGyro.meanFreq...Y	Frequency	Body	rad/s
-69	fBodyGyro.meanFreq...Z	Frequency	Body	rad/s
-70	fBodyAccMag.mean..	Frequency	Body	g
-71	fBodyAccMag.std..	Frequency	Body	g
-72	fBodyAccMag.meanFreq..	Frequency	Body	g
-73	fBodyBodyAccJerkMag.mean..	Frequency	Body	g
-74	fBodyBodyAccJerkMag.std..	Frequency	Body	g
-75	fBodyBodyAccJerkMag.meanFreq..	Frequency	Body	g
-76	fBodyBodyGyroMag.mean..	Frequency	Body	rad/s
-77	fBodyBodyGyroMag.std..	Frequency	Body	rad/s
-78	fBodyBodyGyroMag.meanFreq..	Frequency	Body	rad/s
-79	fBodyBodyGyroJerkMag.mean..	Frequency	Body	rad/s
-80	fBodyBodyGyroJerkMag.std..	Frequency	Body	rad/s
-81	fBodyBodyGyroJerkMag.meanFreq..	Frequency	Body	rad/s
-
+Row Description
+1 SUBJECT_ID
+2 ACTIVITY
+3 tBodyAcc.mean...X
+4 tBodyAcc.mean...Y
+5 tBodyAcc.mean...Z
+6 tBodyAcc.std...X
+7 tBodyAcc.std...Y
+8 tBodyAcc.std...Z
+9 tGravityAcc.mean...X
+10 tGravityAcc.mean...Y
+11 tGravityAcc.mean...Z
+12 tGravityAcc.std...X
+13 tGravityAcc.std...Y
+14 tGravityAcc.std...Z
+15 tBodyAccJerk.mean...X
+16 tBodyAccJerk.mean...Y
+17 tBodyAccJerk.mean...Z
+18 tBodyAccJerk.std...X
+19 tBodyAccJerk.std...Y
+20 tBodyAccJerk.std...Z
+21 tBodyGyro.mean...X
+22 tBodyGyro.mean...Y
+23 tBodyGyro.mean...Z
+24 tBodyGyro.std...X
+25 tBodyGyro.std...Y
+26 tBodyGyro.std...Z
+27 tBodyGyroJerk.mean...X
+28 tBodyGyroJerk.mean...Y
+29 tBodyGyroJerk.mean...Z
+30 tBodyGyroJerk.std...X
+31 tBodyGyroJerk.std...Y
+32 tBodyGyroJerk.std...Z
+33 tBodyAccMag.mean..
+34 tBodyAccMag.std..
+35 tGravityAccMag.mean..
+36 tGravityAccMag.std..
+37 tBodyAccJerkMag.mean..
+38 tBodyAccJerkMag.std..
+39 tBodyGyroMag.mean..
+40 tBodyGyroMag.std..
+41 tBodyGyroJerkMag.mean..
+42 tBodyGyroJerkMag.std..
+43 fBodyAcc.mean...X
+44 fBodyAcc.mean...Y
+45 fBodyAcc.mean...Z
+46 fBodyAcc.std...X
+47 fBodyAcc.std...Y
+48 fBodyAcc.std...Z
+49 fBodyAcc.meanFreq...X
+50 fBodyAcc.meanFreq...Y
+51 fBodyAcc.meanFreq...Z
+52 fBodyAccJerk.mean...X
+53 fBodyAccJerk.mean...Y
+54 fBodyAccJerk.mean...Z
+55 fBodyAccJerk.std...X
+56 fBodyAccJerk.std...Y
+57 fBodyAccJerk.std...Z
+58 fBodyAccJerk.meanFreq...X
+59 fBodyAccJerk.meanFreq...Y
+60 fBodyAccJerk.meanFreq...Z
+61 fBodyGyro.mean...X
+62 fBodyGyro.mean...Y
+63 fBodyGyro.mean...Z
+64 fBodyGyro.std...X
+65 fBodyGyro.std...Y
+66 fBodyGyro.std...Z
+67 fBodyGyro.meanFreq...X
+68 fBodyGyro.meanFreq...Y
+69 fBodyGyro.meanFreq...Z
+70 fBodyAccMag.mean..
+71 fBodyAccMag.std..
+72 fBodyAccMag.meanFreq..
+73 fBodyBodyAccJerkMag.mean..
+74 fBodyBodyAccJerkMag.std..
+75 fBodyBodyAccJerkMag.meanFreq..
+76 fBodyBodyGyroMag.mean..
+77 fBodyBodyGyroMag.std..
+78 fBodyBodyGyroMag.meanFreq..
+79 fBodyBodyGyroJerkMag.mean..
+80 fBodyBodyGyroJerkMag.std..
+81 fBodyBodyGyroJerkMag.meanFreq..
